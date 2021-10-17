@@ -109,7 +109,21 @@ select{
 #categ{
     height:auto;
 }
-
+.btn {
+    background-color: #8cbc00;
+    display: block;
+    color: #FFF;    
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+    text-align: center;
+    border: none;
+    margin-left: 33%;
+    /* width: 100%; */
+}
+.btn:hover{
+    cursor: pointer;
+}
 /** Footer **/
 .site-footer {
     border-top: 1px solid #e1e1e1;
